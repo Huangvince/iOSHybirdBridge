@@ -7,5 +7,6 @@
 @property (nonatomic,strong)NSMutableDictionary *pluginKeyMap;
 
 - (void)initWKWebViewHTML:(NSString *)htmlPath;
+- (instancetype)initWithHTML:(NSString*) htmlPath;
 
 @end
