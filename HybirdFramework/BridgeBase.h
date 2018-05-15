@@ -12,7 +12,6 @@ typedef enum {
 
 @property(nonatomic,strong)UIViewController *viewController;
 
-- (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString;
 - (void)execJsCallbackFunctionByCallbackId:(NSString *)callback andStatus:(ResponseStatus) callBackType;
 - (void)execJsCallbackFunctionByCallbackId:(NSString *)callback messageWithReturnDictionary:(NSDictionary *)message andStatus:(ResponseStatus) callBackType;
 - (void)execJsCallbackFunctionByCallbackId:(NSString *)callback messageWithReturnArray:(NSArray *)message andStatus:(ResponseStatus) callBackType;
